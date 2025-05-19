@@ -94,7 +94,7 @@
             }
         %>
 
-        <a href="https://www.hit.ac.il/" target="_blank">Go to HIT Website</a>
+        <a href="https://www.hit.ac.il/">Go to HIT Website</a>
     </div>
 </body>
 </html>
