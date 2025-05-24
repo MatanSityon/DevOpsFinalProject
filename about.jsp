@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background-color: #eef2f3;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
             padding: 40px;
         }
         .card {
@@ -29,6 +29,22 @@
         li {
             margin: 10px 0;
         }
+.btn {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #357ab7;
+        }
+
     </style>
 </head>
 <body>
@@ -42,6 +58,10 @@
             <li>Moshe Matan Sityon</li>
             <li>Idan Marmor</li>
         </ul>
+<form action="index.jsp">
+            <button class="btn" type="submit">Main page</button>
+        </form>
+
     </div>
 </body>
 </html>
