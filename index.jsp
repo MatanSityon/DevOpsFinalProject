@@ -76,7 +76,7 @@
         <h1>Welcome to the DevOps Final Project</h1>
 
         <form method="get">
-            <label for="name">Enter your name:</label><br>
+            <label for="name">Enter your name here:</label><br>
             <input type="text" id="name" name="name">
             <br>
             <button class="btn" type="submit">Submit</button>
